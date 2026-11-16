@@ -1,7 +1,7 @@
 {
   "version": "2.3.0",
   "git_commit": "e815d9f",
-  "package_url": "https://197-164-101-4.sslip.io/dist/radius-streamnet_latest_amd64.deb",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.3.0/radius-streamnet_2.3.0_amd64.deb",
   "release_date": "2026-11-16",
-  "changelog": "إصدار 2.3.0 المحصن مع كامل التحديثات وميزات الأمان الجديدة"
+  "changelog": "إصدار 2.3.0 المحصن مع كامل التحديثات وميزات الأمان الجديدة والتحديث المباشر من GitHub"
 }
