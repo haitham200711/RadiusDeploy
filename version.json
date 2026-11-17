@@ -1,7 +1,7 @@
 {
-  "version": "2.4.0",
-  "git_commit": "686863d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.0/radius-streamnet_2.4.0_amd64.deb",
+  "version": "2.4.1",
+  "git_commit": "0f9d8e7",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.1/radius-streamnet_2.4.1_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.0 المحصن - التوافق التام مع الموبايل وإلغاء شارة الكلاود الأساسية"
+  "changelog": "إصدار 2.4.1: سد ثغرة صفحة انتهاء الاشتراك، استيراد الباك أب من رابط خارجي واستيراد أسرع بكتير، إصلاح فحص التحديثات"
 }
