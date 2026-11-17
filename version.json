@@ -1,7 +1,7 @@
 {
-  "version": "2.4.4",
-  "git_commit": "38b54d8",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.4/radius-streamnet_2.4.4_amd64.deb",
+  "version": "2.4.5",
+  "git_commit": "6918093",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.5/radius-streamnet_2.4.5_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.4: استيراد ADV من غير أخطاء Deadlock، ومن غير ما كروت تضيع، وإعادة الاستيراد بقت آمنة"
+  "changelog": "إصدار 2.4.5: استيراد كروت ADV من مكانها الصحيح، وكل كارت بيتربط بسلسلته، والكروت اليتيمة بتتمسح تلقائيا"
 }
