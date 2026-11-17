@@ -1,7 +1,7 @@
 {
-  "version": "2.4.10",
-  "git_commit": "d2be736",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.10/radius-streamnet_2.4.10_amd64.deb",
+  "version": "2.4.11",
+  "git_commit": "a5a27df",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.11/radius-streamnet_2.4.11_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "إصدار 2.4.10: استهلاك رام أقل للداتابيز على السيرفرات الجديدة"
+  "changelog": "إصدار 2.4.11: إصلاح مدة العروض في استيراد ADV وظهور العروض للعملاء"
 }
