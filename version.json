@@ -1,7 +1,7 @@
 {
-  "version": "2.4.8",
-  "git_commit": "ff29428",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.8/radius-streamnet_2.4.8_amd64.deb",
+  "version": "2.4.9",
+  "git_commit": "813fc5c",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.9/radius-streamnet_2.4.9_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.8: FreeRADIUS بيتسطب ويتظبط تلقائيا مع كل تثبيت، وإلغاء باسورد الروت الثابت"
+  "changelog": "إصدار 2.4.9: إصلاح حذف النسخ الاحتياطية اللي بتتاخد قبل التحديث"
 }
