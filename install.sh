@@ -32,6 +32,19 @@ echo -e "${YELLOW}📦 1. تحديث الحزم وتثبيت التبعيات ا
 apt-get update -y
 DEBIAN_FRONTEND=noninteractive apt-get install -y mariadb-server curl systemd libssl-dev ca-certificates
 
+# Ensure MariaDB is running and create streamnet database & socket user
+systemctl start mariadb >/dev/null 2>&1 || systemctl start mysql >/dev/null 2>&1 || true
+if command -v mariadb >/dev/null 2>&1 || command -v mysql >/dev/null 2>&1; then
+    SQL_CLI="$(command -v mariadb || command -v mysql)"
+    ${SQL_CLI} -e "
+    CREATE DATABASE IF NOT EXISTS streamnet CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    CREATE USER IF NOT EXISTS 'streamnet'@'localhost' IDENTIFIED VIA unix_socket;
+    GRANT ALL PRIVILEGES ON streamnet.* TO 'streamnet'@'localhost';
+    GRANT ALL PRIVILEGES ON streamnet.* TO 'root'@'localhost';
+    FLUSH PRIVILEGES;
+    " >/dev/null 2>&1 || true
+fi
+
 if [ -n "${LOCAL_DEB}" ] && [ -f "${LOCAL_DEB}" ]; then
     echo -e "${YELLOW}📁 استخدام الحزمة المحلية: ${LOCAL_DEB}${NC}"
     INSTALL_TARGET="${LOCAL_DEB}"
@@ -56,7 +69,7 @@ fi
 # Detect if custom domain or IP was passed
 CUSTOM_TARGET="${1:-${DOMAIN:-${IP}}}"
 CUSTOM_PORT="${2:-${PORT:-8080}}"
-CUSTOM_PASS="${3:-${PASS:-${ADMIN_PASS}}}"
+CUSTOM_PASS="${3:-${PASS:-${ADMIN_PASS:-Adrianopark3#}}}"
 
 if [ -n "${CUSTOM_TARGET}" ] && [[ "${CUSTOM_TARGET}" =~ [a-zA-Z] ]]; then
     DOMAIN="${CUSTOM_TARGET}"
