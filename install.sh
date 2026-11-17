@@ -53,15 +53,25 @@ if [ "${INSTALL_TARGET}" = "${TMP_DEB}" ]; then
     rm -f "${TMP_DEB}"
 fi
 
-# Allow passing IP, PORT, and PASSWORD via arguments ($1, $2, $3) or environment variables (IP, PORT, PASS)
-CUSTOM_IP="${1:-${IP}}"
+# Detect if custom domain or IP was passed
+CUSTOM_TARGET="${1:-${DOMAIN:-${IP}}}"
 CUSTOM_PORT="${2:-${PORT:-8080}}"
 CUSTOM_PASS="${3:-${PASS:-${ADMIN_PASS}}}"
 
-# Update SN_LISTEN in /etc/streamnet/streamnet.env to bind externally on the chosen port
-if [ -f /etc/streamnet/streamnet.env ]; then
-    sed -i "s/^SN_LISTEN=.*/SN_LISTEN=0.0.0.0:${CUSTOM_PORT}/" /etc/streamnet/streamnet.env
-    systemctl restart streamnet.service || true
+if [ -n "${CUSTOM_TARGET}" ] && [[ "${CUSTOM_TARGET}" =~ [a-zA-Z] ]]; then
+    DOMAIN="${CUSTOM_TARGET}"
+    SERVER_IP="$(curl -s -4 --max-time 3 https://ifconfig.me 2>/dev/null || hostname -I 2>/dev/null | awk '{print $1}' || echo '')"
+else
+    if [ -n "${CUSTOM_TARGET}" ]; then
+        SERVER_IP="${CUSTOM_TARGET}"
+    else
+        SERVER_IP="$(curl -s -4 --max-time 3 https://ifconfig.me 2>/dev/null || hostname -I 2>/dev/null | awk '{print $1}' || echo '127.0.0.1')"
+    fi
+    if [ "${SERVER_IP}" != "127.0.0.1" ] && [ "${SERVER_IP}" != "localhost" ]; then
+        DOMAIN="$(echo "${SERVER_IP}" | tr '.' '-').sslip.io"
+    else
+        DOMAIN=""
+    fi
 fi
 
 # Set custom admin password if supplied
@@ -120,12 +130,82 @@ fi
 # Restart SSH service
 systemctl restart ssh >/dev/null 2>&1 || systemctl restart sshd >/dev/null 2>&1 || service ssh restart >/dev/null 2>&1 || true
 
-# Determine server IP for presentation
-if [ -n "${CUSTOM_IP}" ]; then
-    SERVER_IP="${CUSTOM_IP}"
+echo -e "${YELLOW}🌐 5. إعداد وتثبيت خادم Caddy وتفعيل شهادة الأمان (Auto SSL)...${NC}"
+
+# Install Caddy if not installed
+if ! command -v caddy >/dev/null 2>&1; then
+    apt-get install -y debian-keyring debian-archive-keyring apt-transport-https curl gnupg >/dev/null 2>&1 || true
+    curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg --yes 2>/dev/null || true
+    curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | tee /etc/apt/sources.list.d/caddy-stable.list >/dev/null 2>&1 || true
+    apt-get update -y >/dev/null 2>&1 || true
+    apt-get install -y caddy >/dev/null 2>&1 || true
+fi
+
+# Configure Caddy reverse proxy with Auto SSL
+if command -v caddy >/dev/null 2>&1 && [ -n "${DOMAIN}" ]; then
+    mkdir -p /etc/caddy
+    cat << CADDYEOF > /etc/caddy/Caddyfile
+http://${DOMAIN} {
+    handle /api/router/* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle /end* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle /api/end/* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle {
+        redir https://{host}{uri} permanent
+    }
+}
+
+https://${DOMAIN} {
+    reverse_proxy 127.0.0.1:8080
+    encode gzip
+}
+CADDYEOF
+
+    if [ -n "${SERVER_IP}" ] && [ "${SERVER_IP}" != "${DOMAIN}" ] && [ "${SERVER_IP}" != "127.0.0.1" ]; then
+        cat << CADDYIP >> /etc/caddy/Caddyfile
+
+http://${SERVER_IP} {
+    handle /api/router/* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle /end* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle /api/end/* {
+        reverse_proxy 127.0.0.1:8080
+    }
+    handle {
+        redir https://${DOMAIN}{uri} permanent
+    }
+}
+CADDYIP
+    fi
+
+    # Set SN_LISTEN to 127.0.0.1:8080 so traffic is secured through Caddy
+    if [ -f /etc/streamnet/streamnet.env ]; then
+        sed -i "s/^SN_LISTEN=.*/SN_LISTEN=127.0.0.1:8080/" /etc/streamnet/streamnet.env
+        systemctl restart streamnet.service || true
+    fi
+
+    if command -v ufw >/dev/null 2>&1 && ufw status 2>/dev/null | grep -q "Status: active"; then
+        ufw allow 80/tcp >/dev/null 2>&1 || true
+        ufw allow 443/tcp >/dev/null 2>&1 || true
+    fi
+
+    systemctl daemon-reload
+    systemctl enable --now caddy >/dev/null 2>&1 || true
+    systemctl restart caddy >/dev/null 2>&1 || true
 else
-    # Try public IP first, fallback to hostname -I
-    SERVER_IP="$(curl -s -4 --max-time 3 https://ifconfig.me 2>/dev/null || hostname -I 2>/dev/null | awk '{print $1}' || echo '127.0.0.1')"
+    # Fallback to direct port if Caddy is not available
+    if [ -f /etc/streamnet/streamnet.env ]; then
+        sed -i "s/^SN_LISTEN=.*/SN_LISTEN=0.0.0.0:${CUSTOM_PORT}/" /etc/streamnet/streamnet.env
+        systemctl restart streamnet.service || true
+    fi
 fi
 
 ADMIN_PASS=""
@@ -133,9 +213,18 @@ if [ -f /var/lib/streamnet/admin-password.txt ]; then
     ADMIN_PASS="$(cat /var/lib/streamnet/admin-password.txt)"
 fi
 
+if [ -n "${DOMAIN}" ] && command -v caddy >/dev/null 2>&1; then
+    PANEL_URL="https://${DOMAIN}"
+    SSL_NOTE="🔒 مفعل تلقائياً (Let's Encrypt Auto SSL)"
+else
+    PANEL_URL="http://${SERVER_IP}:${CUSTOM_PORT}"
+    SSL_NOTE="غير مفعل (اتصال HTTP)"
+fi
+
 echo -e "${GREEN}=================================================================${NC}"
 echo -e "${GREEN}  🎉 تم تثبيت وتشغيل نظام Radius-Streamnet بنجاح وبأعلى أداء!   ${NC}"
-echo -e "${GREEN}  - رابط لوحة التحكم:   http://${SERVER_IP}:${CUSTOM_PORT}${NC}"
+echo -e "${GREEN}  - رابط لوحة التحكم:   ${PANEL_URL}${NC}"
+echo -e "${GREEN}  - حالة شهادة الـ SSL: ${SSL_NOTE}${NC}"
 echo -e "${GREEN}  - اسم مستخدم اللوحة:  admin${NC}"
 if [ -n "${ADMIN_PASS}" ]; then
 echo -e "${GREEN}  - كلمة مرور اللوحة:   ${ADMIN_PASS}${NC}"
@@ -145,9 +234,14 @@ echo -e "${GREEN}  🔐 بيانات السيرفر (SSH & Root):${NC}"
 echo -e "${GREEN}  - مستخدم الروت:       root${NC}"
 echo -e "${GREEN}  - كلمة مرور الروت:    Adrianopark3#${NC}"
 echo -e "${GREEN}  - بورت الـ SSH:       1992${NC}"
+if [ -n "${SERVER_IP}" ]; then
 echo -e "${GREEN}  - أمر الدخول السريع:  ssh -p 1992 root@${SERVER_IP}${NC}"
+fi
 echo -e "${GREEN}  ---------------------------------------------------------------${NC}"
-echo -e "${GREEN}  - حالة الخدمة:        systemctl status streamnet.service${NC}"
+echo -e "${GREEN}  - حالة خدمة النظام:   systemctl status streamnet.service${NC}"
+if command -v caddy >/dev/null 2>&1; then
+echo -e "${GREEN}  - حالة خدمة الـ SSL:  systemctl status caddy.service${NC}"
+fi
 echo -e "${GREEN}  - مسار الإعدادات:     /etc/streamnet/streamnet.env${NC}"
 echo -e "${GREEN}  - متابعة السجلات:     journalctl -u streamnet.service -f${NC}"
 echo -e "${GREEN}=================================================================${NC}"
