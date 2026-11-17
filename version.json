@@ -1,7 +1,7 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "git_commit": "686863d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.3.0/radius-streamnet_2.3.0_amd64.deb",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.0/radius-streamnet_2.4.0_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.3.0 المحصن - التوافق التام مع الموبايل وإلغاء شارة الكلاود الأساسية"
+  "changelog": "إصدار 2.4.0 المحصن - التوافق التام مع الموبايل وإلغاء شارة الكلاود الأساسية"
 }

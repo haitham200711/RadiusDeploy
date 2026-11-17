@@ -22,7 +22,7 @@
 
 ## 📦 محتويات المجلد
 
-- **`radius-streamnet_2.3.0_amd64.deb`**: الحزمة النهائية المترجمة والمحمية، حجمها حوالي **27.5 ميجابايت** مضغوطة وتحتوي على النظام بالكامل مدمجاً بداخله واجهات الويب.
+- **`radius-streamnet_2.4.0_amd64.deb`**: الحزمة النهائية المترجمة والمحمية، حجمها حوالي **27.5 ميجابايت** مضغوطة وتحتوي على النظام بالكامل مدمجاً بداخله واجهات الويب.
 - **`install.sh`**: سكربت التثبيت السريع للعميل بضغطة زر واحدة.
 - **`build-deb.sh`**: سكربت إعادة بناء الحزمة تلقائياً في أي وقت عند تحديث الكود.
 - **`package-template/`**: ملفات التحكم وهيكل الحزمة (`control`, `postinst`, `systemd.service`).
@@ -39,10 +39,10 @@ sudo bash install.sh
 ### الطريقة 2: التثبيت اليدوي عبر أمر `apt` أو `dpkg`:
 ```bash
 # 1. تثبيت الحزمة تلقائياً مع حل كافة التبعيات:
-sudo apt install ./radius-streamnet_2.3.0_amd64.deb
+sudo apt install ./radius-streamnet_2.4.0_amd64.deb
 
 # أو عبر dpkg:
-sudo dpkg -i radius-streamnet_2.3.0_amd64.deb
+sudo dpkg -i radius-streamnet_2.4.0_amd64.deb
 sudo apt-get install -f -y
 ```
 

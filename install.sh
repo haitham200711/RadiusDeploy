@@ -49,8 +49,8 @@ if [ -n "${LOCAL_DEB}" ] && [ -f "${LOCAL_DEB}" ]; then
     echo -e "${YELLOW}📁 استخدام الحزمة المحلية: ${LOCAL_DEB}${NC}"
     INSTALL_TARGET="${LOCAL_DEB}"
 else
-    GH_DEB_URL="https://github.com/haitham200711/RadiusDeploy/releases/download/v2.3.0/radius-streamnet_2.3.0_amd64.deb"
-    MIRROR_DEB_URL="https://197-164-101-4.sslip.io/dist/radius-streamnet_2.3.0_amd64.deb"
+    GH_DEB_URL="https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.0/radius-streamnet_2.4.0_amd64.deb"
+    MIRROR_DEB_URL="https://197-164-101-4.sslip.io/dist/radius-streamnet_2.4.0_amd64.deb"
     echo -e "${YELLOW}📥 2. جاري تنزيل أحدث حزمة محصنة من GitHub...${NC}"
     if ! curl -f -sSL -L -o "${TMP_DEB}" "${GH_DEB_URL}"; then
         echo -e "${YELLOW}🔄 جاري التنزيل من السيرفر البديل (Mirror)...${NC}"
