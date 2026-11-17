@@ -1,7 +1,7 @@
 {
-  "version": "2.4.6",
-  "git_commit": "acd020a",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.6/radius-streamnet_2.4.6_amd64.deb",
+  "version": "2.4.7",
+  "git_commit": "80d74ea",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.7/radius-streamnet_2.4.7_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.6: تغيير مفتاح التراخيص، حماية رصيد نقط الكاش وأكواد الشحن الجديدة، سد ثغرات مطابقة الدفع، وحماية دخول بوابة المشتركين"
+  "changelog": "إصدار 2.4.7: أبلكيشن المشتركين 2.4 وأبلكيشن الكاش 2.7، والتحديثات بتوصل للموبايلات تلقائيا على كل السيرفرات"
 }
