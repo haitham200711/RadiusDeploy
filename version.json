@@ -1,7 +1,7 @@
 {
-  "version": "2.4.5",
-  "git_commit": "6918093",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.5/radius-streamnet_2.4.5_amd64.deb",
+  "version": "2.4.6",
+  "git_commit": "acd020a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.6/radius-streamnet_2.4.6_amd64.deb",
   "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.5: استيراد كروت ADV من مكانها الصحيح، وكل كارت بيتربط بسلسلته، والكروت اليتيمة بتتمسح تلقائيا"
+  "changelog": "إصدار 2.4.6: تغيير مفتاح التراخيص، حماية رصيد نقط الكاش وأكواد الشحن الجديدة، سد ثغرات مطابقة الدفع، وحماية دخول بوابة المشتركين"
 }
