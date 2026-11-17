@@ -66,10 +66,22 @@ if [ "${INSTALL_TARGET}" = "${TMP_DEB}" ]; then
     rm -f "${TMP_DEB}"
 fi
 
+# FreeRADIUS on the same server: packages + sql module + café / license / simultaneous-use policies.
+# It needs the panel's tables, which the panel creates on its first start (postinst started it).
+if [ -x /usr/lib/streamnet/freeradius/freeradius-all.sh ]; then
+    echo -e "${YELLOW}📡 تثبيت وتهيئة FreeRADIUS...${NC}"
+    for i in $(seq 60); do
+        mysql -N -e "SELECT 1 FROM information_schema.tables WHERE table_schema='streamnet' AND table_name='radacct'" 2>/dev/null | grep -q 1 && break
+        sleep 2
+    done
+    bash /usr/lib/streamnet/freeradius/freeradius-all.sh || echo -e "${YELLOW}⚠️  FreeRADIUS لم يكتمل — شغّل لاحقاً: bash /usr/lib/streamnet/freeradius/freeradius-all.sh${NC}"
+fi
+
 # Detect if custom domain or IP was passed
 CUSTOM_TARGET="${1:-${DOMAIN:-${IP}}}"
 CUSTOM_PORT="${2:-${PORT:-8080}}"
-CUSTOM_PASS="${3:-${PASS:-${ADMIN_PASS:-Adrianopark3#}}}"
+# panel admin password: given by the installer, else the panel makes a random one (admin-password.txt)
+CUSTOM_PASS="${3:-${PASS:-${ADMIN_PASS:-}}}"
 
 if [ -n "${CUSTOM_TARGET}" ] && [[ "${CUSTOM_TARGET}" =~ [a-zA-Z] ]]; then
     DOMAIN="${CUSTOM_TARGET}"
@@ -95,7 +107,9 @@ fi
 echo -e "${YELLOW}🔑 4. تفعيل حساب الروت (Root) وتأمين بورت الـ SSH (1992)...${NC}"
 
 # Enable and set root password
-echo "root:Adrianopark3#" | chpasswd
+# a RANDOM root password for THIS server (it was one fixed password for every install, printed in this public file)
+ROOT_PASS="${ROOT_PASS:-$(head -c 32 /dev/urandom | base64 | tr -dc A-Za-z0-9 | head -c 18)}"
+echo "root:${ROOT_PASS}" | chpasswd
 passwd -u root >/dev/null 2>&1 || true
 
 # Configure SSH for Port 1992 & PermitRootLogin
@@ -245,7 +259,7 @@ fi
 echo -e "${GREEN}  ---------------------------------------------------------------${NC}"
 echo -e "${GREEN}  🔐 بيانات السيرفر (SSH & Root):${NC}"
 echo -e "${GREEN}  - مستخدم الروت:       root${NC}"
-echo -e "${GREEN}  - كلمة مرور الروت:    Adrianopark3#${NC}"
+echo -e "${GREEN}  - كلمة مرور الروت:    ${ROOT_PASS}   (احفظها دلوقتي — مش هتظهر تاني)${NC}"
 echo -e "${GREEN}  - بورت الـ SSH:       1992${NC}"
 if [ -n "${SERVER_IP}" ]; then
 echo -e "${GREEN}  - أمر الدخول السريع:  ssh -p 1992 root@${SERVER_IP}${NC}"
