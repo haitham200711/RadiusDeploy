@@ -1,7 +1,7 @@
 {
-  "version": "2.4.9",
-  "git_commit": "813fc5c",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.9/radius-streamnet_2.4.9_amd64.deb",
-  "release_date": "2026-11-17",
-  "changelog": "إصدار 2.4.9: إصلاح حذف النسخ الاحتياطية اللي بتتاخد قبل التحديث"
+  "version": "2.4.10",
+  "git_commit": "d2be736",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.10/radius-streamnet_2.4.10_amd64.deb",
+  "release_date": "2026-11-18",
+  "changelog": "إصدار 2.4.10: استهلاك رام أقل للداتابيز على السيرفرات الجديدة"
 }
