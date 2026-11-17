@@ -1,7 +1,7 @@
 {
-  "version": "2.4.12",
-  "git_commit": "1ef4118",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.12/radius-streamnet_2.4.12_amd64.deb",
+  "version": "2.4.13",
+  "git_commit": "014070d",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.13/radius-streamnet_2.4.13_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "2.4.12 speed of panel loading and navigation"
+  "changelog": "2.4.13 query speed with millions of sessions"
 }
