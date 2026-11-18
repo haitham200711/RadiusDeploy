@@ -1,7 +1,7 @@
 {
-  "version": "2.4.59",
-  "git_commit": "20dac6b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.59/radius-streamnet_2.4.59_amd64.deb",
+  "version": "2.4.60",
+  "git_commit": "7ea5867",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.60/radius-streamnet_2.4.60_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.59: manager app 1.1 redesign"
+  "changelog": "release 2.4.60: distributor app 2.0 (permission-driven)"
 }
