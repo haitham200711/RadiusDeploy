@@ -1,7 +1,7 @@
 {
-  "version": "2.4.50",
-  "git_commit": "8260a8d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.50/radius-streamnet_2.4.50_amd64.deb",
+  "version": "2.4.51",
+  "git_commit": "bec1467",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.51/radius-streamnet_2.4.51_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.50: settings unified look, ADV import hardening"
+  "changelog": "release 2.4.51: English-only RADIUS usernames applied by the update"
 }
