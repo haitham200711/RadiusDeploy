@@ -1,7 +1,7 @@
 {
-  "version": "2.4.63",
-  "git_commit": "d1170bd",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.63/radius-streamnet_2.4.63_amd64.deb",
-  "release_date": "2026-11-18",
-  "changelog": "release 2.4.63: signed-only license revocation, License Studio hardening"
+  "version": "2.4.64",
+  "git_commit": "c518707",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.64/radius-streamnet_2.4.64_amd64.deb",
+  "release_date": "2026-11-19",
+  "changelog": "license server: dashboard also on :8666 (browsers block 6666)"
 }
