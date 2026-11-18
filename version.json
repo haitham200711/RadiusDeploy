@@ -1,7 +1,7 @@
 {
-  "version": "2.4.54",
-  "git_commit": "2521b78",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.54/radius-streamnet_2.4.54_amd64.deb",
+  "version": "2.4.55",
+  "git_commit": "3795e0f",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.55/radius-streamnet_2.4.55_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.54: lite subscriber read for menu actions, form alignment"
+  "changelog": "release 2.4.55: café cards review (MAC log, sweep fixes, lookup order)"
 }
