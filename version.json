@@ -1,7 +1,7 @@
 {
-  "version": "2.4.34",
-  "git_commit": "a4dff28",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.34/radius-streamnet_2.4.34_amd64.deb",
+  "version": "2.4.35",
+  "git_commit": "9db2a07",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.35/radius-streamnet_2.4.35_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.34: ADV import adds managers (insert used non-existent columns) and assigns subscribers"
+  "changelog": "release 2.4.35: distributors make their own card batches (pay from wallet, own batches only, refund on delete)"
 }
