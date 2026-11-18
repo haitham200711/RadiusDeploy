@@ -1,7 +1,7 @@
 {
-  "version": "2.4.30",
-  "git_commit": "4801ce5",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.30/radius-streamnet_2.4.30_amd64.deb",
+  "version": "2.4.31",
+  "git_commit": "8b0e71a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.31/radius-streamnet_2.4.31_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.30: manager permission for radius cards (lookup by number, restore from MAC, kick)"
+  "changelog": "release 2.4.31: bulk selection bar on top, grouped buttons"
 }
