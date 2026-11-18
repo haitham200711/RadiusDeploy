@@ -1,7 +1,7 @@
 {
-  "version": "2.4.64",
-  "git_commit": "c518707",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.64/radius-streamnet_2.4.64_amd64.deb",
+  "version": "2.4.65",
+  "git_commit": "24fe595",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.65/radius-streamnet_2.4.65_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "license server: dashboard also on :8666 (browsers block 6666)"
+  "changelog": "release 2.4.65: license pulled only from the license server (15-min while waiting), dashboard: change user name and password"
 }
