@@ -1,7 +1,7 @@
 {
-  "version": "2.4.41",
-  "git_commit": "40fc0c6",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.41/radius-streamnet_2.4.41_amd64.deb",
+  "version": "2.4.42",
+  "git_commit": "60b6129",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.42/radius-streamnet_2.4.42_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.41: card-number font size, bold and thickness in the print template"
+  "changelog": "release 2.4.42: package updater picks the newest release from GitHub and the mirror (no stale raw cache)"
 }
