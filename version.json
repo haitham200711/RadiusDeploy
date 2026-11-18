@@ -1,7 +1,7 @@
 {
-  "version": "2.4.66",
-  "git_commit": "a226ec1",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.66/radius-streamnet_2.4.66_amd64.deb",
+  "version": "2.4.67",
+  "git_commit": "c181f89",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.67/radius-streamnet_2.4.67_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.66: cash top-up vouchers delivered automatically via the license server"
+  "changelog": "release 2.4.67: license server changes (issue/renew/revoke/cash) reach the panel instantly via /v1/wait, applied and sessions cut at once"
 }
