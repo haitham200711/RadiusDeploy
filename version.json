@@ -1,7 +1,7 @@
 {
-  "version": "2.4.26",
-  "git_commit": "6f4be32",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.26/radius-streamnet_2.4.26_amd64.deb",
+  "version": "2.4.27",
+  "git_commit": "bd719e3",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.27/radius-streamnet_2.4.27_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.26: settings tabs are small chips"
+  "changelog": "release 2.4.27: the name opens the edit form, the offer opens the offer"
 }
