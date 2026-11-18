@@ -1,7 +1,7 @@
 {
-  "version": "2.4.61",
-  "git_commit": "7059ba7",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.61/radius-streamnet_2.4.61_amd64.deb",
+  "version": "2.4.62",
+  "git_commit": "2e3271d",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.62/radius-streamnet_2.4.62_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.61: remove the manager app and its API"
+  "changelog": "release 2.4.62: WhatsApp alerts for cash phones (battery, offline)"
 }
