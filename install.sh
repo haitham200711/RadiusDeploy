@@ -30,7 +30,7 @@ TMP_DEB="/tmp/radius-streamnet_latest.deb"
 
 echo -e "${YELLOW}📦 1. تحديث الحزم وتثبيت التبعيات الأساسية (MariaDB, Curl, Systemd)...${NC}"
 apt-get update -y
-DEBIAN_FRONTEND=noninteractive apt-get install -y mariadb-server curl systemd libssl-dev ca-certificates fail2ban
+DEBIAN_FRONTEND=noninteractive apt-get install -y mariadb-server curl systemd libssl-dev ca-certificates fail2ban python3-pil python3-reportlab python3-qrcode python3-pip fonts-dejavu-core fonts-liberation
 
 # Ensure MariaDB is running and create streamnet database & socket user
 systemctl start mariadb >/dev/null 2>&1 || systemctl start mysql >/dev/null 2>&1 || true
