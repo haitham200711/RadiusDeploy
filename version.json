@@ -1,7 +1,7 @@
 {
-  "version": "2.4.27",
-  "git_commit": "bd719e3",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.27/radius-streamnet_2.4.27_amd64.deb",
+  "version": "2.4.28",
+  "git_commit": "ce345dc",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.28/radius-streamnet_2.4.28_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.27: the name opens the edit form, the offer opens the offer"
+  "changelog": "release 2.4.28: per-manager refund limits (minutes or usage, monthly count, reason)"
 }
