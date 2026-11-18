@@ -1,7 +1,7 @@
 {
-  "version": "2.4.62",
-  "git_commit": "2e3271d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.62/radius-streamnet_2.4.62_amd64.deb",
+  "version": "2.4.63",
+  "git_commit": "d1170bd",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.63/radius-streamnet_2.4.63_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.62: WhatsApp alerts for cash phones (battery, offline)"
+  "changelog": "release 2.4.63: signed-only license revocation, License Studio hardening"
 }
