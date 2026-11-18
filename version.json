@@ -1,7 +1,7 @@
 {
-  "version": "2.4.24",
-  "git_commit": "9106a96",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.24/radius-streamnet_2.4.24_amd64.deb",
+  "version": "2.4.25",
+  "git_commit": "a96a591",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.25/radius-streamnet_2.4.25_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.24: charge panel searches the subscriber first name too"
+  "changelog": "release 2.4.25: first-name search is a manager permission; new-primary-server workflow"
 }
