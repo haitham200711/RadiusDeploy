@@ -1,7 +1,7 @@
 {
-  "version": "2.4.23",
-  "git_commit": "b759e4b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.23/radius-streamnet_2.4.23_amd64.deb",
+  "version": "2.4.24",
+  "git_commit": "9106a96",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.24/radius-streamnet_2.4.24_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.23: option-card checkboxes keep their natural width"
+  "changelog": "release 2.4.24: charge panel searches the subscriber first name too"
 }
