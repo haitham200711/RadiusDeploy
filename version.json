@@ -1,7 +1,7 @@
 {
-  "version": "2.4.52",
-  "git_commit": "26ed581",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.52/radius-streamnet_2.4.52_amd64.deb",
+  "version": "2.4.53",
+  "git_commit": "9fa3098",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.53/radius-streamnet_2.4.53_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.52: subscriber form on one page"
+  "changelog": "release 2.4.53: status section first"
 }
