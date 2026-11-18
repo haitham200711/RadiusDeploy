@@ -1,7 +1,7 @@
 {
-  "version": "2.4.43",
-  "git_commit": "afa901f",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.43/radius-streamnet_2.4.43_amd64.deb",
+  "version": "2.4.44",
+  "git_commit": "2cd9030",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.44/radius-streamnet_2.4.44_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.43: manager permissions tidied into 5 groups"
+  "changelog": "release 2.4.44: selection bar sits below the header"
 }
