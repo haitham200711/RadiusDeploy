@@ -1,7 +1,7 @@
 {
-  "version": "2.4.21",
-  "git_commit": "2324854",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.21/radius-streamnet_2.4.21_amd64.deb",
+  "version": "2.4.22",
+  "git_commit": "2ab72b4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.22/radius-streamnet_2.4.22_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.21: settings tiles fill their rows, tabs have equal widths"
+  "changelog": "release 2.4.22: manager form in one consistent layout"
 }
