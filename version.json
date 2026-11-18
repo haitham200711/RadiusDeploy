@@ -1,7 +1,7 @@
 {
-  "version": "2.4.37",
-  "git_commit": "931c12e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.37/radius-streamnet_2.4.37_amd64.deb",
+  "version": "2.4.38",
+  "git_commit": "7fde109",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.38/radius-streamnet_2.4.38_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.37: ship render_cards_pdf.py and its python deps in the deb"
+  "changelog": "release 2.4.38: automatic new-release banner for the admin"
 }
