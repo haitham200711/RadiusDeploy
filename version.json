@@ -1,7 +1,7 @@
 {
-  "version": "2.4.20",
-  "git_commit": "3a65102",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.20/radius-streamnet_2.4.20_amd64.deb",
+  "version": "2.4.21",
+  "git_commit": "2324854",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.21/radius-streamnet_2.4.21_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.20: one look for settings labels, headings and help text"
+  "changelog": "release 2.4.21: settings tiles fill their rows, tabs have equal widths"
 }
