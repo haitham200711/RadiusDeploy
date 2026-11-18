@@ -1,7 +1,7 @@
 {
-  "version": "2.4.56",
-  "git_commit": "8f9186f",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.56/radius-streamnet_2.4.56_amd64.deb",
+  "version": "2.4.57",
+  "git_commit": "5edecf2",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.57/radius-streamnet_2.4.57_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.56: fix migration 083"
+  "changelog": "release 2.4.57: offer form switches are clear labelled cards"
 }
