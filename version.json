@@ -1,7 +1,7 @@
 {
-  "version": "2.4.32",
-  "git_commit": "7419a3e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.32/radius-streamnet_2.4.32_amd64.deb",
+  "version": "2.4.33",
+  "git_commit": "7485c8e",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.33/radius-streamnet_2.4.33_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.32: sticky selection bar on phones"
+  "changelog": "release 2.4.33: charge-only managers get cards + reports pages, charge report permission"
 }
