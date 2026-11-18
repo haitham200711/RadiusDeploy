@@ -1,7 +1,7 @@
 {
-  "version": "2.4.39",
-  "git_commit": "fde2121",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.39/radius-streamnet_2.4.39_amd64.deb",
+  "version": "2.4.40",
+  "git_commit": "a1dd092",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.40/radius-streamnet_2.4.40_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.39: PDF template chosen inside the offer"
+  "changelog": "release 2.4.40: update check bypasses the GitHub raw cache and also asks the mirror"
 }
