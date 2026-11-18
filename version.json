@@ -1,7 +1,7 @@
 {
-  "version": "2.4.47",
-  "git_commit": "f2d8f27",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.47/radius-streamnet_2.4.47_amd64.deb",
+  "version": "2.4.48",
+  "git_commit": "bda2c2e",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.48/radius-streamnet_2.4.48_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.47: managers table, offer name opens edit"
+  "changelog": "release 2.4.48: manager permission conflicts and layout"
 }
