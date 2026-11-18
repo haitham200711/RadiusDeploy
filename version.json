@@ -1,7 +1,7 @@
 {
-  "version": "2.4.19",
-  "git_commit": "c6dc2d0",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.19/radius-streamnet_2.4.19_amd64.deb",
+  "version": "2.4.20",
+  "git_commit": "3a65102",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.20/radius-streamnet_2.4.20_amd64.deb",
   "release_date": "2026-11-18",
-  "changelog": "release 2.4.19: sidebar stays full height, page-size control for long lists"
+  "changelog": "release 2.4.20: one look for settings labels, headings and help text"
 }
