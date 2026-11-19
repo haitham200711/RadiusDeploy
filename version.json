@@ -1,7 +1,7 @@
 {
-  "version": "2.4.76",
-  "git_commit": "e233fca",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.76/radius-streamnet_2.4.76_amd64.deb",
+  "version": "2.4.77",
+  "git_commit": "af4afca",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.77/radius-streamnet_2.4.77_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.76: subscriber portal in three tabs, calmer colours and layout"
+  "changelog": "release 2.4.77: portal tabs work (script moved out of inline for CSP), light mode readable, card pickers for extra quota and change plan"
 }
