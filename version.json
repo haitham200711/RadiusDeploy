@@ -1,7 +1,7 @@
 {
-  "version": "2.4.69",
-  "git_commit": "bbee90f",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.69/radius-streamnet_2.4.69_amd64.deb",
+  "version": "2.4.70",
+  "git_commit": "131fd54",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.70/radius-streamnet_2.4.70_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.69: the customer app talks to the server it was downloaded from (address stamped into the APK signing block at download), customer app 2.5"
+  "changelog": "release 2.4.70: system update shows a real progress bar (stages, MB downloaded) and reloads only when the new version answers; update now from the new-version bar on every page"
 }
