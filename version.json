@@ -1,7 +1,7 @@
 {
-  "version": "2.4.80",
-  "git_commit": "08aa478",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.80/radius-streamnet_2.4.80_amd64.deb",
+  "version": "2.4.81",
+  "git_commit": "a14d329",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.81/radius-streamnet_2.4.81_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.80: customer app 2.6 (build 16) shows usage by service; Tal2aNet usage tab too"
+  "changelog": "release 2.4.81: live-streaming service, more CDN networks, every DNS name and the port in the unknown list, router DNS setup check"
 }
