@@ -1,7 +1,7 @@
 {
-  "version": "2.4.81",
-  "git_commit": "a14d329",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.81/radius-streamnet_2.4.81_amd64.deb",
+  "version": "2.4.82",
+  "git_commit": "228e153",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.82/radius-streamnet_2.4.82_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.81: live-streaming service, more CDN networks, every DNS name and the port in the unknown list, router DNS setup check"
+  "changelog": "release 2.4.82: an address named after its first flows leaves the unknown list; a Meta cache shared by Facebook and Instagram counts as Facebook"
 }
