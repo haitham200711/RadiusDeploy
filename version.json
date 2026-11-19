@@ -1,7 +1,7 @@
 {
-  "version": "2.4.73",
-  "git_commit": "c0d2c7b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.73/radius-streamnet_2.4.73_amd64.deb",
+  "version": "2.4.74",
+  "git_commit": "d059a87",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.74/radius-streamnet_2.4.74_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.73: traffic flow enable works on RouterOS 6 (no comment on a target; commands sent one by one through the API)"
+  "changelog": "release 2.4.74: END / LIMIT / OK address lists kept by the panel without dropping the session (reconciled against the router every 20 s, failure rate per router, off by default)"
 }
