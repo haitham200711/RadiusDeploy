@@ -1,7 +1,7 @@
 {
-  "version": "2.4.78",
-  "git_commit": "65dcbb2",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.78/radius-streamnet_2.4.78_amd64.deb",
+  "version": "2.4.79",
+  "git_commit": "3ade4c6",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.79/radius-streamnet_2.4.79_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.78: subscriber portal shows usage by service (YouTube, TikTok, WhatsApp...) from Traffic Flow, per month and per day"
+  "changelog": "release 2.4.79: service usage classified from the routers DNS cache (CNAME-aware) and TLS certificates, new services, unknown-traffic list for the admin"
 }
