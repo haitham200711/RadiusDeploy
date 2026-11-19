@@ -1,7 +1,7 @@
 {
-  "version": "2.4.79",
-  "git_commit": "3ade4c6",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.79/radius-streamnet_2.4.79_amd64.deb",
+  "version": "2.4.80",
+  "git_commit": "08aa478",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.80/radius-streamnet_2.4.80_amd64.deb",
   "release_date": "2026-11-19",
-  "changelog": "release 2.4.79: service usage classified from the routers DNS cache (CNAME-aware) and TLS certificates, new services, unknown-traffic list for the admin"
+  "changelog": "release 2.4.80: customer app 2.6 (build 16) shows usage by service; Tal2aNet usage tab too"
 }
