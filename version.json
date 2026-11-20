@@ -1,7 +1,7 @@
 {
-  "version": "2.4.89",
-  "git_commit": "0c13385",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.89/radius-streamnet_2.4.89_amd64.deb",
+  "version": "2.4.90",
+  "git_commit": "3151960",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.90/radius-streamnet_2.4.90_amd64.deb",
   "release_date": "2026-11-20",
-  "changelog": "release 2.4.89: terminate / renew / advance move a live session between END, LIMIT and OK without dropping it"
+  "changelog": "release 2.4.90: address-list entries last a week (renewed below 6 days)"
 }
