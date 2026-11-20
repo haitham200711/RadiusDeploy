@@ -1,7 +1,7 @@
 {
-  "version": "2.4.82",
-  "git_commit": "228e153",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.82/radius-streamnet_2.4.82_amd64.deb",
-  "release_date": "2026-11-19",
-  "changelog": "release 2.4.82: an address named after its first flows leaves the unknown list; a Meta cache shared by Facebook and Instagram counts as Facebook"
+  "version": "2.4.83",
+  "git_commit": "793237a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.83/radius-streamnet_2.4.83_amd64.deb",
+  "release_date": "2026-11-20",
+  "changelog": "release 2.4.83: a card converted to MAC logs in by MAC: the MAC name follows the card (no password / user+password)"
 }
