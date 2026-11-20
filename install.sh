@@ -247,11 +247,13 @@ LANEOF
 
     cat << 'LANEOF' >> /etc/caddy/Caddyfile
 
-# --- streamnet-lan-http-8088 (managed by the package) ---
-# the same plain-http panel on port 8088 (private networks only; the internet gets 403)
+# --- streamnet-lan-user-8088 (managed by the package) ---
+# port 8088 opens the subscribers' page (/user/) over plain http (private networks only; the internet gets 403)
 http://:8088 {
     @lan remote_ip 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 127.0.0.1
+    @root path /
     handle @lan {
+        redir @root /user/ 302
         reverse_proxy 127.0.0.1:8080 {
             header_up X-SN-Via lan-http
         }
@@ -261,7 +263,7 @@ http://:8088 {
         respond "forbidden" 403
     }
 }
-# --- end streamnet-lan-http-8088 ---
+# --- end streamnet-lan-user-8088 ---
 LANEOF
 
     systemctl daemon-reload
