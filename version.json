@@ -1,7 +1,7 @@
 {
-  "version": "2.4.86",
-  "git_commit": "376926d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.86/radius-streamnet_2.4.86_amd64.deb",
+  "version": "2.4.87",
+  "git_commit": "339da2a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.87/radius-streamnet_2.4.87_amd64.deb",
   "release_date": "2026-11-20",
-  "changelog": "release 2.4.86: a card converts to MAC within a second of its session ending (the hotspot asks for the MAC about 6 s later and never retries)"
+  "changelog": "release 2.4.87: an advance clears manual_terminated like every other renewal, so the subscriber leaves END at once"
 }
