@@ -1,7 +1,7 @@
 {
-  "version": "2.4.96",
-  "git_commit": "91be801",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.96/radius-streamnet_2.4.96_amd64.deb",
+  "version": "2.4.97",
+  "git_commit": "0f577cd",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.97/radius-streamnet_2.4.97_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.96: usage restarts at every renewal, earlier cycles kept for review"
+  "changelog": "release 2.4.97: the MAC that sent the request in the login log, quota field takes any number"
 }
