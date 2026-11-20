@@ -222,6 +222,9 @@ CADDYIP
     if command -v ufw >/dev/null 2>&1 && ufw status 2>/dev/null | grep -q "Status: active"; then
         ufw allow 80/tcp >/dev/null 2>&1 || true
         ufw allow 443/tcp >/dev/null 2>&1 || true
+        # the subscribers' page on 8088: private networks only
+        ufw allow from 10.0.0.0/8 to any port 8088 proto tcp comment 'user-page-lan' >/dev/null 2>&1 || true
+        ufw allow from 192.168.0.0/16 to any port 8088 proto tcp comment 'user-page-lan' >/dev/null 2>&1 || true
     fi
 
     # plain http for the panel over the tunnel / LAN on any address of this server
