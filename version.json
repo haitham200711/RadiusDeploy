@@ -1,7 +1,7 @@
 {
-  "version": "2.4.98",
-  "git_commit": "a18a48e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.98/radius-streamnet_2.4.98_amd64.deb",
+  "version": "2.4.99",
+  "git_commit": "6121455",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.99/radius-streamnet_2.4.99_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.98: fix the login-log MAC patch check"
+  "changelog": "release 2.4.99: the router (NAS) in the login log"
 }
