@@ -1,7 +1,7 @@
 {
-  "version": "2.4.92",
-  "git_commit": "f712f89",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.92/radius-streamnet_2.4.92_amd64.deb",
+  "version": "2.4.93",
+  "git_commit": "d35dc1a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.93/radius-streamnet_2.4.93_amd64.deb",
   "release_date": "2026-11-20",
-  "changelog": "release 2.4.92: the panel over plain http on port 8088 from the tunnel / LAN"
+  "changelog": "release 2.4.93: port 8088 opens the subscribers page /user/"
 }
