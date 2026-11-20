@@ -1,7 +1,7 @@
 {
-  "version": "2.4.84",
-  "git_commit": "c130ab5",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.84/radius-streamnet_2.4.84_amd64.deb",
+  "version": "2.4.85",
+  "git_commit": "17fc3b8",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.85/radius-streamnet_2.4.85_amd64.deb",
   "release_date": "2026-11-20",
-  "changelog": "release 2.4.84: card details page redesigned, disconnect / disconnect-and-end buttons, back-to-card-number, MAC-converted banner, two password modes"
+  "changelog": "release 2.4.85: card details page smaller, MAC card list back, collapsible sessions"
 }
