@@ -1,7 +1,7 @@
 {
-  "version": "2.4.90",
-  "git_commit": "3151960",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.90/radius-streamnet_2.4.90_amd64.deb",
+  "version": "2.4.91",
+  "git_commit": "8ece7ea",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.91/radius-streamnet_2.4.91_amd64.deb",
   "release_date": "2026-11-20",
-  "changelog": "release 2.4.90: address-list entries last a week (renewed below 6 days)"
+  "changelog": "release 2.4.91: the panel over plain http from the tunnel / LAN on any server address (Caddy block added by the package)"
 }
