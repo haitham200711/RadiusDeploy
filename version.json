@@ -1,7 +1,7 @@
 {
-  "version": "2.4.94",
-  "git_commit": "e959356",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.94/radius-streamnet_2.4.94_amd64.deb",
-  "release_date": "2026-11-20",
-  "changelog": "release 2.4.94: lan-http.sh — Caddy blocks and the 8088 firewall rule on every server"
+  "version": "2.4.95",
+  "git_commit": "51b57ea",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.95/radius-streamnet_2.4.95_amd64.deb",
+  "release_date": "2026-11-21",
+  "changelog": "release 2.4.95: offer period in hours / days / months / years, refresh buttons and red ended-card status"
 }
