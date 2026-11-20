@@ -224,6 +224,27 @@ CADDYIP
         ufw allow 443/tcp >/dev/null 2>&1 || true
     fi
 
+    # plain http for the panel over the tunnel / LAN on any address of this server
+    cat << 'LANEOF' >> /etc/caddy/Caddyfile
+
+# --- streamnet-lan-http (managed by the package) ---
+# plain http for the panel from the tunnel / LAN / private networks, on ANY address of this server (so the tunnel
+# address needs no setting): no redirect to https there; the internet gets 403 on this site
+http:// {
+    @lan remote_ip 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 127.0.0.1
+    handle @lan {
+        reverse_proxy 127.0.0.1:8080 {
+            header_up X-SN-Via lan-http
+        }
+        encode gzip
+    }
+    handle {
+        respond "forbidden" 403
+    }
+}
+# --- end streamnet-lan-http ---
+LANEOF
+
     systemctl daemon-reload
     systemctl enable --now caddy >/dev/null 2>&1 || true
     systemctl restart caddy >/dev/null 2>&1 || true
