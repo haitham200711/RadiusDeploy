@@ -1,7 +1,7 @@
 {
-  "version": "2.4.105",
-  "git_commit": "e7bf5f5",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.105/radius-streamnet_2.4.105_amd64.deb",
+  "version": "2.4.106",
+  "git_commit": "af8a6cf",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.106/radius-streamnet_2.4.106_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.105: café sweep waits at least 10 minutes"
+  "changelog": "release 2.4.106: static route gateway accepts any IP"
 }
