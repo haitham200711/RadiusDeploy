@@ -1,7 +1,7 @@
 {
-  "version": "2.4.163",
-  "git_commit": "40ff5f1",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.163/radius-streamnet_2.4.163_amd64.deb",
+  "version": "2.4.164",
+  "git_commit": "6e89108",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.164/radius-streamnet_2.4.164_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.163: cafe cards - an ended card no longer takes a MAC from a working card"
+  "changelog": "release 2.4.164: cafe cards - old cards named after a MAC give the name up to the card that logs in by it (cleans ~1100 kick loops)"
 }
