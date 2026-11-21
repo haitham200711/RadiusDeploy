@@ -1,7 +1,7 @@
 {
-  "version": "2.4.160",
-  "git_commit": "9400c16",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.160/radius-streamnet_2.4.160_amd64.deb",
+  "version": "2.4.161",
+  "git_commit": "a2c1b75",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.161/radius-streamnet_2.4.161_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.160: distributor renew form shows his offer cost (what his balance is charged)"
+  "changelog": "release 2.4.161: tools - bulk auto renewal on/off (all subscribers or a manager)"
 }
