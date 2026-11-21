@@ -1,7 +1,7 @@
 {
-  "version": "2.4.113",
-  "git_commit": "86df595",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.113/radius-streamnet_2.4.113_amd64.deb",
+  "version": "2.4.114",
+  "git_commit": "7190519",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.114/radius-streamnet_2.4.114_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.113: backups every N hours, keep N copies"
+  "changelog": "release 2.4.114: device host name from the router DHCP leases in card details"
 }
