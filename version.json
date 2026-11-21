@@ -1,7 +1,7 @@
 {
-  "version": "2.4.154",
-  "git_commit": "df4ae2f",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.154/radius-streamnet_2.4.154_amd64.deb",
+  "version": "2.4.155",
+  "git_commit": "53fcac4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.155/radius-streamnet_2.4.155_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.154: sub-managers page - balance ledger per sub-manager and for all"
+  "changelog": "release 2.4.155: managers tree - whole tree shares subscribers, parent controls descendants (password, stop, balance, reports)"
 }
