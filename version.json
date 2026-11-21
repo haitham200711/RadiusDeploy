@@ -1,7 +1,7 @@
 {
-  "version": "2.4.111",
-  "git_commit": "45561ca",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.111/radius-streamnet_2.4.111_amd64.deb",
+  "version": "2.4.112",
+  "git_commit": "2294fc5",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.112/radius-streamnet_2.4.112_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.111: cash app mine API returns day rows, count and totals"
+  "changelog": "release 2.4.112: WhatsApp bulk messages"
 }
