@@ -1,7 +1,7 @@
 {
-  "version": "2.4.115",
-  "git_commit": "f549457",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.115/radius-streamnet_2.4.115_amd64.deb",
+  "version": "2.4.116",
+  "git_commit": "65a9527",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.116/radius-streamnet_2.4.116_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.115: similar MACs report session details"
+  "changelog": "release 2.4.116: prominent subscribers search box"
 }
