@@ -1,7 +1,7 @@
 {
-  "version": "2.4.166",
-  "git_commit": "992d8c7",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.166/radius-streamnet_2.4.166_amd64.deb",
+  "version": "2.4.167",
+  "git_commit": "a948ac4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.167/radius-streamnet_2.4.167_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.166: ADV importer writes Cairo time (fixes 2h expiration gap)"
+  "changelog": "release 2.4.167: terminate offers disconnect (live lists never park terminated users, 1-minute kick pass)"
 }
