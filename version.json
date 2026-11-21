@@ -1,7 +1,7 @@
 {
-  "version": "2.4.117",
-  "git_commit": "730054c",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.117/radius-streamnet_2.4.117_amd64.deb",
+  "version": "2.4.118",
+  "git_commit": "b70b49f",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.118/radius-streamnet_2.4.118_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.117: edit form loads full subscriber from list row"
+  "changelog": "release 2.4.118: subscribers search on its own row"
 }
