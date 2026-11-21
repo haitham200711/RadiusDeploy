@@ -1,7 +1,7 @@
 {
-  "version": "2.4.156",
-  "git_commit": "3080d02",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.156/radius-streamnet_2.4.156_amd64.deb",
+  "version": "2.4.157",
+  "git_commit": "294e2bc",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.157/radius-streamnet_2.4.157_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.156: admin-only pages locked at the API for staff logins + hidden pages cannot be opened by link"
+  "changelog": "release 2.4.157: staff reports = subscriber invoices + managers events (self and sub-managers only)"
 }
