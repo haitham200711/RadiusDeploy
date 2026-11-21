@@ -1,7 +1,7 @@
 {
-  "version": "2.4.122",
-  "git_commit": "5abe4df",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.122/radius-streamnet_2.4.122_amd64.deb",
+  "version": "2.4.123",
+  "git_commit": "b0b0aba",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.123/radius-streamnet_2.4.123_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.122: phone font two sizes smaller again"
+  "changelog": "release 2.4.123: phone font three sizes smaller"
 }
