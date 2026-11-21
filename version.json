@@ -1,7 +1,7 @@
 {
-  "version": "2.4.152",
-  "git_commit": "263f142",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.152/radius-streamnet_2.4.152_amd64.deb",
+  "version": "2.4.153",
+  "git_commit": "e4ebabc",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.153/radius-streamnet_2.4.153_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.152: permission module rebuilt (6 sections, sub-managers page, per-manager grants)"
+  "changelog": "release 2.4.153: manager menu shows only dashboard, subscribers, charge panel unless a permission needs more"
 }
