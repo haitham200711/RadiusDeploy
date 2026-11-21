@@ -1,7 +1,7 @@
 {
-  "version": "2.4.146",
-  "git_commit": "063cce2",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.146/radius-streamnet_2.4.146_amd64.deb",
+  "version": "2.4.147",
+  "git_commit": "dcba6e1",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.147/radius-streamnet_2.4.147_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.146: GB usage reports per NAS and per day / month"
+  "changelog": "release 2.4.147: usage reports - all-time by default, months stacked, pop-up per month / NAS"
 }
