@@ -1,7 +1,7 @@
 {
-  "version": "2.4.135",
-  "git_commit": "ae5d4dd",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.135/radius-streamnet_2.4.135_amd64.deb",
+  "version": "2.4.136",
+  "git_commit": "9081629",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.136/radius-streamnet_2.4.136_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.135: remove live sessions card from dashboard"
+  "changelog": "release 2.4.136: Cisco Switch section (SSH control of Cisco switches)"
 }
