@@ -1,7 +1,7 @@
 {
-  "version": "2.4.127",
-  "git_commit": "21fe4ce",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.127/radius-streamnet_2.4.127_amd64.deb",
+  "version": "2.4.128",
+  "git_commit": "0d77cf5",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.128/radius-streamnet_2.4.128_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.127: manager passwords visible to the admin (encrypted at rest)"
+  "changelog": "release 2.4.128: delete manager"
 }
