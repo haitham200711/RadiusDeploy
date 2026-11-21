@@ -1,7 +1,7 @@
 {
-  "version": "2.4.129",
-  "git_commit": "137db2b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.129/radius-streamnet_2.4.129_amd64.deb",
+  "version": "2.4.130",
+  "git_commit": "48fe2cf",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.130/radius-streamnet_2.4.130_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.129: close duplicate open radacct rows of one session"
+  "changelog": "release 2.4.130: fast auth report page, close same-device duplicate sessions"
 }
