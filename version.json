@@ -1,7 +1,7 @@
 {
-  "version": "2.4.161",
-  "git_commit": "a2c1b75",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.161/radius-streamnet_2.4.161_amd64.deb",
+  "version": "2.4.162",
+  "git_commit": "a53ca7a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.162/radius-streamnet_2.4.162_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.161: tools - bulk auto renewal on/off (all subscribers or a manager)"
+  "changelog": "release 2.4.162: cafe cards - a new card converting a MAC takes it from an old card whose code is that MAC (no more kick loop)"
 }
