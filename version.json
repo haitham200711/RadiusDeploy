@@ -1,7 +1,7 @@
 {
-  "version": "2.4.142",
-  "git_commit": "1513880",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.142/radius-streamnet_2.4.142_amd64.deb",
+  "version": "2.4.143",
+  "git_commit": "753ed86",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.143/radius-streamnet_2.4.143_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.142: WhatsApp alert when a Cisco switch goes down / comes back"
+  "changelog": "release 2.4.143: ADV import counts usage from the last renewal, not from day one"
 }
