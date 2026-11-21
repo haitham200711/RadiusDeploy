@@ -1,7 +1,7 @@
 {
-  "version": "2.4.109",
-  "git_commit": "afdcb1e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.109/radius-streamnet_2.4.109_amd64.deb",
+  "version": "2.4.110",
+  "git_commit": "60841f3",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.110/radius-streamnet_2.4.110_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.109: SSTP installed flag read from the right place"
+  "changelog": "release 2.4.110: refund and delete cash transactions"
 }
