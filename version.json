@@ -1,7 +1,7 @@
 {
-  "version": "2.4.168",
-  "git_commit": "803a9ba",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.168/radius-streamnet_2.4.168_amd64.deb",
+  "version": "2.4.169",
+  "git_commit": "178c5f6",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.169/radius-streamnet_2.4.169_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.168: no-password policy no longer overrides Reject (terminated/limited users cannot log in)"
+  "changelog": "release 2.4.169: FreeRADIUS policy backups no longer live in policy.d (old copies overrode the live policy and let terminated no-password users in)"
 }
