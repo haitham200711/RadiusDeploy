@@ -1,7 +1,7 @@
 {
-  "version": "2.4.120",
-  "git_commit": "266434e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.120/radius-streamnet_2.4.120_amd64.deb",
+  "version": "2.4.121",
+  "git_commit": "5f1ba9b",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.121/radius-streamnet_2.4.121_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.120: subscribers search below the filter buttons"
+  "changelog": "release 2.4.121: phone font two sizes smaller (no page zoom)"
 }
