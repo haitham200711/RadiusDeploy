@@ -1,7 +1,7 @@
 {
-  "version": "2.4.138",
-  "git_commit": "1e344fd",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.138/radius-streamnet_2.4.138_amd64.deb",
+  "version": "2.4.139",
+  "git_commit": "dfbbf13",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.139/radius-streamnet_2.4.139_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.138: live Cisco port bandwidth (persistent SSH poller), wide layout"
+  "changelog": "release 2.4.139: steady Cisco bandwidth (8 s sliding window)"
 }
