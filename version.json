@@ -1,7 +1,7 @@
 {
-  "version": "2.4.140",
-  "git_commit": "96a5b81",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.140/radius-streamnet_2.4.140_amd64.deb",
+  "version": "2.4.141",
+  "git_commit": "85118cb",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.141/radius-streamnet_2.4.141_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.140: Cisco port problems highlight + CDP/LLDP neighbors"
+  "changelog": "release 2.4.141: Cisco neighbors tab shows Cisco switches only"
 }
