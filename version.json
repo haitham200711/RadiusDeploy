@@ -1,7 +1,7 @@
 {
-  "version": "2.4.150",
-  "git_commit": "1e88046",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.150/radius-streamnet_2.4.150_amd64.deb",
+  "version": "2.4.151",
+  "git_commit": "57198fc",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.151/radius-streamnet_2.4.151_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.150: manager permission sub_own - sees his own subscribers without searching"
+  "changelog": "release 2.4.151: WhatsApp balance-add notification; sub_own also unlocks Subscribers page for charge-only logins"
 }
