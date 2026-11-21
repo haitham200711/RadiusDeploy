@@ -1,7 +1,7 @@
 {
-  "version": "2.4.118",
-  "git_commit": "b70b49f",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.118/radius-streamnet_2.4.118_amd64.deb",
+  "version": "2.4.119",
+  "git_commit": "6b97548",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.119/radius-streamnet_2.4.119_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.118: subscribers search on its own row"
+  "changelog": "release 2.4.119: smaller UI on phones"
 }
