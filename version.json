@@ -1,7 +1,7 @@
 {
-  "version": "2.4.101",
-  "git_commit": "2939137",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.101/radius-streamnet_2.4.101_amd64.deb",
+  "version": "2.4.102",
+  "git_commit": "097269b",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.102/radius-streamnet_2.4.102_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.101: login log totals counted incrementally"
+  "changelog": "release 2.4.102: accounting time from the server clock, future stamps pulled back"
 }
