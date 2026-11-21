@@ -1,7 +1,7 @@
 {
-  "version": "2.4.171",
-  "git_commit": "2c20a1b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.171/radius-streamnet_2.4.171_amd64.deb",
+  "version": "2.4.172",
+  "git_commit": "6f901b3",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.172/radius-streamnet_2.4.172_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.171: dashboard counts cards online by MAC too"
+  "changelog": "release 2.4.172: WhatsApp balance-add toggle/template accepted, sent-messages window loads"
 }
