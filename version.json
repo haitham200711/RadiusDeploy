@@ -1,7 +1,7 @@
 {
-  "version": "2.4.145",
-  "git_commit": "acac69b",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.145/radius-streamnet_2.4.145_amd64.deb",
+  "version": "2.4.146",
+  "git_commit": "063cce2",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.146/radius-streamnet_2.4.146_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.145: cash_auto renewals show as cash wallet"
+  "changelog": "release 2.4.146: GB usage reports per NAS and per day / month"
 }
