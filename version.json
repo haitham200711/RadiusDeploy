@@ -1,7 +1,7 @@
 {
-  "version": "2.4.103",
-  "git_commit": "7ad5d90",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.103/radius-streamnet_2.4.103_amd64.deb",
+  "version": "2.4.104",
+  "git_commit": "aa72d7c",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.104/radius-streamnet_2.4.104_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.103: no CoA warning on the dashboard"
+  "changelog": "release 2.4.104: live session feed, stale grace after start, server-clock accounting fix"
 }
