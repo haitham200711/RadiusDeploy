@@ -1,7 +1,7 @@
 {
-  "version": "2.4.131",
-  "git_commit": "d07af87",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.131/radius-streamnet_2.4.131_amd64.deb",
+  "version": "2.4.132",
+  "git_commit": "1c47738",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.132/radius-streamnet_2.4.132_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.131: set Africa/Cairo on servers left on UTC"
+  "changelog": "release 2.4.132: fast online checks (indexed), subscribers list ids-first"
 }
