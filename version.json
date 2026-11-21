@@ -1,7 +1,7 @@
 {
-  "version": "2.4.123",
-  "git_commit": "b0b0aba",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.123/radius-streamnet_2.4.123_amd64.deb",
+  "version": "2.4.124",
+  "git_commit": "f2bf444",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.124/radius-streamnet_2.4.124_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.123: phone font three sizes smaller"
+  "changelog": "release 2.4.124: prominent search only on lists, fix charge/cardtool search"
 }
