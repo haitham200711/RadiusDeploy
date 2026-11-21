@@ -1,7 +1,7 @@
 {
-  "version": "2.4.125",
-  "git_commit": "b153fd8",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.125/radius-streamnet_2.4.125_amd64.deb",
+  "version": "2.4.126",
+  "git_commit": "531b177",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.126/radius-streamnet_2.4.126_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.125: charge panel offers the subscriber current package even if hidden"
+  "changelog": "release 2.4.126: charge panel: hidden package says charging via distributor is unavailable"
 }
