@@ -1,7 +1,7 @@
 {
-  "version": "2.4.128",
-  "git_commit": "0d77cf5",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.128/radius-streamnet_2.4.128_amd64.deb",
+  "version": "2.4.129",
+  "git_commit": "137db2b",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.129/radius-streamnet_2.4.129_amd64.deb",
   "release_date": "2026-11-21",
-  "changelog": "release 2.4.128: delete manager"
+  "changelog": "release 2.4.129: close duplicate open radacct rows of one session"
 }
