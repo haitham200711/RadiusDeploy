@@ -1,7 +1,7 @@
 {
-  "version": "2.4.170",
-  "git_commit": "a62eebb",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.170/radius-streamnet_2.4.170_amd64.deb",
+  "version": "2.4.171",
+  "git_commit": "2c20a1b",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.171/radius-streamnet_2.4.171_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.170: WhatsApp sent-messages window (log of every customer message)"
+  "changelog": "release 2.4.171: dashboard counts cards online by MAC too"
 }
