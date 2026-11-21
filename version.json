@@ -1,7 +1,7 @@
 {
-  "version": "2.4.173",
-  "git_commit": "cf1c869",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.173/radius-streamnet_2.4.173_amd64.deb",
+  "version": "2.4.174",
+  "git_commit": "4a2e743",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.174/radius-streamnet_2.4.174_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.173: 7-digit cash transaction code sent by WhatsApp, portal charge by transaction code"
+  "changelog": "release 2.4.174: cash transaction code shown without #, copy button"
 }
