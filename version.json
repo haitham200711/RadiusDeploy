@@ -1,7 +1,7 @@
 {
-  "version": "2.4.178",
-  "git_commit": "360fb6c",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.178/radius-streamnet_2.4.178_amd64.deb",
+  "version": "2.4.179",
+  "git_commit": "70593e5",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.179/radius-streamnet_2.4.179_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.178: SMS from the cash phone (SIM pick, test button, transaction code by SMS)"
+  "changelog": "release 2.4.179: instant SMS (long poll), cash phone no longer unpairs itself, real connected state"
 }
