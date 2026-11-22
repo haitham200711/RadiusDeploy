@@ -1,7 +1,7 @@
 {
-  "version": "2.4.182",
-  "git_commit": "cf786ea",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.182/radius-streamnet_2.4.182_amd64.deb",
+  "version": "2.4.183",
+  "git_commit": "11694bc",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.183/radius-streamnet_2.4.183_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.182: a device blocked by anti-theft (immediate block) is refused at login with a contact message"
+  "changelog": "release 2.4.183: block-list login guard as its own FreeRADIUS policy"
 }
