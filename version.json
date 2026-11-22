@@ -1,7 +1,7 @@
 {
-  "version": "2.4.188",
-  "git_commit": "d8228ef",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.188/radius-streamnet_2.4.188_amd64.deb",
+  "version": "2.4.189",
+  "git_commit": "95621e7",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.189/radius-streamnet_2.4.189_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.188: a device-locked account refused from another device says so (Arabic + English)"
+  "changelog": "release 2.4.189: imported (username-only) cafe cards get a blank password row again"
 }
