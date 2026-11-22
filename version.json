@@ -1,7 +1,7 @@
 {
-  "version": "2.4.175",
-  "git_commit": "8221e32",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.175/radius-streamnet_2.4.175_amd64.deb",
+  "version": "2.4.176",
+  "git_commit": "dc490ec",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.176/radius-streamnet_2.4.176_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.175: cash auto renews only subscribers whose auto renewal is on (otherwise balance only)"
+  "changelog": "release 2.4.176: restore passwordless policy guard (hotspot CHAP logins were rejected)"
 }
