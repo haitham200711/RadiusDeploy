@@ -1,7 +1,7 @@
 {
-  "version": "2.4.176",
-  "git_commit": "dc490ec",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.176/radius-streamnet_2.4.176_amd64.deb",
+  "version": "2.4.177",
+  "git_commit": "d8b5425",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.177/radius-streamnet_2.4.177_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.176: restore passwordless policy guard (hotspot CHAP logins were rejected)"
+  "changelog": "gofmt reports.go"
 }
