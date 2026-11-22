@@ -1,7 +1,7 @@
 {
-  "version": "2.4.187",
-  "git_commit": "99a279e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.187/radius-streamnet_2.4.187_amd64.deb",
+  "version": "2.4.188",
+  "git_commit": "d8228ef",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.188/radius-streamnet_2.4.188_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.187: café rows pass runs 4 cards at a time without waiting while a backlog remains"
+  "changelog": "release 2.4.188: a device-locked account refused from another device says so (Arabic + English)"
 }
