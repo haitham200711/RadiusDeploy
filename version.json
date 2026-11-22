@@ -1,7 +1,7 @@
 {
-  "version": "2.4.183",
-  "git_commit": "11694bc",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.183/radius-streamnet_2.4.183_amd64.deb",
+  "version": "2.4.184",
+  "git_commit": "09ebfc5",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.184/radius-streamnet_2.4.184_amd64.deb",
   "release_date": "2026-11-22",
-  "changelog": "release 2.4.183: block-list login guard as its own FreeRADIUS policy"
+  "changelog": "release 2.4.184: block-list policy grants (freerad reads card_blacklist and the contact view)"
 }
