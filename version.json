@@ -1,7 +1,7 @@
 {
-  "version": "2.4.193",
-  "git_commit": "f3ea9a0",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.193/radius-streamnet_2.4.193_amd64.deb",
+  "version": "2.4.194",
+  "git_commit": "1beea22",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.194/radius-streamnet_2.4.194_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.193: subscriber IP opens in a new tab"
+  "changelog": "release 2.4.194: per-invoice GB total / remaining in the 360 view"
 }
