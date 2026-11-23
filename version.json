@@ -1,7 +1,7 @@
 {
-  "version": "2.5.3",
-  "git_commit": "430cfbc",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.3/radius-streamnet_2.5.3_amd64.deb",
+  "version": "2.5.4",
+  "git_commit": "dd67d6a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.4/radius-streamnet_2.5.4_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.5.3: cash activation preview shows offer, days, GB and the new end date each on its own line"
+  "changelog": "release 2.5.4: cash activation window shows the customer debts; not paid takes a part paid now and the rest becomes his debt"
 }
