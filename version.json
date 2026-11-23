@@ -1,7 +1,7 @@
 {
-  "version": "2.4.195",
-  "git_commit": "a6885ff",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.195/radius-streamnet_2.4.195_amd64.deb",
+  "version": "2.4.196",
+  "git_commit": "4954966",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.196/radius-streamnet_2.4.196_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.195: buy a card from the hotspot page (Vodafone Cash order by number), shop settings; blocked-device message fix"
+  "changelog": "release 2.4.196: redesigned card-shop settings modal (tabs, styled fields, status badges)"
 }
