@@ -1,7 +1,7 @@
 {
-  "version": "2.5.0",
-  "git_commit": "c19ae74",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.0/radius-streamnet_2.5.0_amd64.deb",
+  "version": "2.5.1",
+  "git_commit": "d69e2ce",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.1/radius-streamnet_2.5.1_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.5.0: customer app 2.8 can charge the balance by transaction code"
+  "changelog": "release 2.5.1: bulk bar «شحن بالرصيد» list with prorated cash activation; show only تشغيل or إيقاف by state"
 }
