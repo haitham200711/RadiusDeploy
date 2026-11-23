@@ -1,7 +1,7 @@
 {
-  "version": "2.4.197",
-  "git_commit": "41b7c68",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.197/radius-streamnet_2.4.197_amd64.deb",
+  "version": "2.4.198",
+  "git_commit": "330ac33",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.198/radius-streamnet_2.4.198_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.197: mobile redesign across the panel; new look for ADV import, WhatsApp bulk, tools, managers, blacklist"
+  "changelog": "release 2.4.198: own-group managers search only their own subscribers in the list"
 }
