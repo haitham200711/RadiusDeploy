@@ -1,7 +1,7 @@
 {
-  "version": "2.4.200",
-  "git_commit": "15fbba8",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.200/radius-streamnet_2.4.200_amd64.deb",
+  "version": "2.5.0",
+  "git_commit": "c19ae74",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.0/radius-streamnet_2.5.0_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.200: customer app takes the panel's app name (launcher label + inside the app), signed per server"
+  "changelog": "release 2.5.0: customer app 2.8 can charge the balance by transaction code"
 }
