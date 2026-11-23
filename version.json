@@ -1,7 +1,7 @@
 {
-  "version": "2.4.191",
-  "git_commit": "c77ab6a",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.191/radius-streamnet_2.4.191_amd64.deb",
+  "version": "2.4.192",
+  "git_commit": "b35cecb",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.192/radius-streamnet_2.4.192_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.191: global search runs on Enter only; the list refreshes after a 360 drawer action"
+  "changelog": "release 2.4.192: debt lock setting + sub_debt_charge permission"
 }
