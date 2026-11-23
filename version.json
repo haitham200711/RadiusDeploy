@@ -1,7 +1,7 @@
 {
-  "version": "2.5.10",
-  "git_commit": "9beb29e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.10/radius-streamnet_2.5.10_amd64.deb",
-  "release_date": "2026-11-23",
-  "changelog": "release 2.5.10: settle debts from the selection bar; list rows carry the debt so the right-click settle shows"
+  "version": "2.6.0",
+  "git_commit": "311de32",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.0/radius-streamnet_2.6.0_amd64.deb",
+  "release_date": "2026-11-24",
+  "changelog": "release 2.6.0: subscriber page renew button (renews his offer from his balance)"
 }
