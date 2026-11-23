@@ -1,7 +1,7 @@
 {
-  "version": "2.4.199",
-  "git_commit": "7d8d8f2",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.199/radius-streamnet_2.4.199_amd64.deb",
+  "version": "2.4.200",
+  "git_commit": "15fbba8",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.4.200/radius-streamnet_2.4.200_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.4.199: offers page button to hide/show all offers on the customer page and app"
+  "changelog": "release 2.4.200: customer app takes the panel's app name (launcher label + inside the app), signed per server"
 }
