@@ -1,7 +1,7 @@
 {
-  "version": "2.5.9",
-  "git_commit": "4ecb961",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.9/radius-streamnet_2.5.9_amd64.deb",
+  "version": "2.5.10",
+  "git_commit": "9beb29e",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.10/radius-streamnet_2.5.10_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.5.9: the paid-now calculation (value, paid, new debt, total debt after) under every not paid window"
+  "changelog": "release 2.5.10: settle debts from the selection bar; list rows carry the debt so the right-click settle shows"
 }
