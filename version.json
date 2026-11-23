@@ -1,7 +1,7 @@
 {
-  "version": "2.5.5",
-  "git_commit": "130be3e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.5/radius-streamnet_2.5.5_amd64.deb",
+  "version": "2.5.6",
+  "git_commit": "ce7eac4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.5.6/radius-streamnet_2.5.6_amd64.deb",
   "release_date": "2026-11-23",
-  "changelog": "release 2.5.5: rename the manager-balance item to «شحن بالرصيد النقدي»"
+  "changelog": "release 2.5.6: drop the «تفعيل من رصيد المشترك» button from the selection bar"
 }
