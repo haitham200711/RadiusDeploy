@@ -1,7 +1,7 @@
 {
-  "version": "2.6.0",
-  "git_commit": "311de32",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.0/radius-streamnet_2.6.0_amd64.deb",
+  "version": "2.6.1",
+  "git_commit": "fc93c90",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.1/radius-streamnet_2.6.1_amd64.deb",
   "release_date": "2026-11-24",
-  "changelog": "release 2.6.0: subscriber page renew button (renews his offer from his balance)"
+  "changelog": "release 2.6.1: new design for card shop modal, bandwidth reports and admin events log"
 }
