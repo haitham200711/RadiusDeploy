@@ -1,7 +1,7 @@
 {
-  "version": "2.6.8",
-  "git_commit": "48777fa",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.8/radius-streamnet_2.6.8_amd64.deb",
+  "version": "2.6.9",
+  "git_commit": "713cc08",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.9/radius-streamnet_2.6.9_amd64.deb",
   "release_date": "2026-11-24",
-  "changelog": "release 2.6.8: Cisco per-port isolation (switchport protected), hidden and refused on trunks"
+  "changelog": "release 2.6.9: new design for the Cisco Switch page"
 }
