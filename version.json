@@ -1,7 +1,7 @@
 {
-  "version": "2.6.6",
-  "git_commit": "0a48101",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.6/radius-streamnet_2.6.6_amd64.deb",
+  "version": "2.6.7",
+  "git_commit": "b5e0db0",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.7/radius-streamnet_2.6.7_amd64.deb",
   "release_date": "2026-11-24",
-  "changelog": "release 2.6.6: Cisco ports show VLAN name / trunk details, per-port restart on every port, guarded whole-switch reload"
+  "changelog": "release 2.6.7: Cisco shows the full port description and edits it in place"
 }
