@@ -1,7 +1,7 @@
 {
-  "version": "2.6.3",
-  "git_commit": "e7aef90",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.3/radius-streamnet_2.6.3_amd64.deb",
+  "version": "2.6.5",
+  "git_commit": "2f16a28",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.5/radius-streamnet_2.6.5_amd64.deb",
   "release_date": "2026-11-24",
-  "changelog": "release 2.6.3: offers bulk edit buttons apply to the ticked offers only"
+  "changelog": "release 2.6.5: each renewal belongs to who made it only; distributor shown by name in the invoices report (2.6.4 tag had no code change)"
 }
