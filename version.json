@@ -1,7 +1,7 @@
 {
-  "version": "2.6.2",
-  "git_commit": "7b19816",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.2/radius-streamnet_2.6.2_amd64.deb",
+  "version": "2.6.3",
+  "git_commit": "e7aef90",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.3/radius-streamnet_2.6.3_amd64.deb",
   "release_date": "2026-11-24",
-  "changelog": "release 2.6.2: offers page select-all with selected count"
+  "changelog": "release 2.6.3: offers bulk edit buttons apply to the ticked offers only"
 }
