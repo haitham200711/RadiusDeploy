@@ -1,7 +1,7 @@
 {
-  "version": "2.6.10",
-  "git_commit": "4c02577",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.10/radius-streamnet_2.6.10_amd64.deb",
+  "version": "2.6.11",
+  "git_commit": "45ed925",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.11/radius-streamnet_2.6.11_amd64.deb",
   "release_date": "2026-11-25",
-  "changelog": "release 2.6.10: manager page gets debt, settle button, debts tab and a period report"
+  "changelog": "release 2.6.11: design fixes for payments, NAS, managers and cafes pages"
 }
