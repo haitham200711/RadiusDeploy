@@ -1,7 +1,7 @@
 {
-  "version": "2.6.16",
-  "git_commit": "e815b7e",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.16/radius-streamnet_2.6.16_amd64.deb",
-  "release_date": "2026-11-25",
-  "changelog": "release 2.6.16: customer app 2.9 - login with username alone for accounts without a password"
+  "version": "2.6.17",
+  "git_commit": "fd65752",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.17/radius-streamnet_2.6.17_amd64.deb",
+  "release_date": "2026-11-26",
+  "changelog": "release 2.6.17: hotspot page from the panel (outlets, areas, free trial card) + card status page"
 }
