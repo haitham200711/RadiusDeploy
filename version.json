@@ -1,7 +1,7 @@
 {
-  "version": "2.6.17",
-  "git_commit": "fd65752",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.17/radius-streamnet_2.6.17_amd64.deb",
+  "version": "2.6.18",
+  "git_commit": "6c84ad4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.18/radius-streamnet_2.6.18_amd64.deb",
   "release_date": "2026-11-26",
-  "changelog": "release 2.6.17: hotspot page from the panel (outlets, areas, free trial card) + card status page"
+  "changelog": "release 2.6.18: general setting - auto renew also when the GB are used up"
 }
