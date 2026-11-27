@@ -1,7 +1,7 @@
 {
-  "version": "2.6.20",
-  "git_commit": "21eb3cb",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.20/radius-streamnet_2.6.20_amd64.deb",
+  "version": "2.6.21",
+  "git_commit": "8056079",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.21/radius-streamnet_2.6.21_amd64.deb",
   "release_date": "2026-11-27",
-  "changelog": "release 2.6.20: searches keep their text and filters, and the newest search always wins"
+  "changelog": "release 2.6.21: home page search finds subscribers and cards by the IP they are connected with"
 }
