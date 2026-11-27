@@ -1,7 +1,7 @@
 {
-  "version": "2.6.34",
-  "git_commit": "a48bf69",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.34/radius-streamnet_2.6.34_amd64.deb",
+  "version": "2.6.35",
+  "git_commit": "3ed637a",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.35/radius-streamnet_2.6.35_amd64.deb",
   "release_date": "2026-11-27",
-  "changelog": "release 2.6.34: Cisco live traffic and CPU over SNMP when a community is saved (SSH fallback)"
+  "changelog": "gofmt cisco_live.go"
 }
