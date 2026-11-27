@@ -1,7 +1,7 @@
 {
-  "version": "2.6.19",
-  "git_commit": "1a96192",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.19/radius-streamnet_2.6.19_amd64.deb",
-  "release_date": "2026-11-26",
-  "changelog": "release 2.6.19: new design for the hotspot page settings window"
+  "version": "2.6.20",
+  "git_commit": "21eb3cb",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.20/radius-streamnet_2.6.20_amd64.deb",
+  "release_date": "2026-11-27",
+  "changelog": "release 2.6.20: searches keep their text and filters, and the newest search always wins"
 }
