@@ -1,7 +1,7 @@
 {
-  "version": "2.6.31",
-  "git_commit": "7debe27",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.31/radius-streamnet_2.6.31_amd64.deb",
+  "version": "2.6.32",
+  "git_commit": "38dd6c4",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.32/radius-streamnet_2.6.32_amd64.deb",
   "release_date": "2026-11-27",
-  "changelog": "release 2.6.31: steady cable speeds on the switch map"
+  "changelog": "release 2.6.32: log free-trial requests made while the trial is closed (number, device, server)"
 }
