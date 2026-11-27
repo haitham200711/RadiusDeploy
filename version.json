@@ -1,7 +1,7 @@
 {
-  "version": "2.6.28",
-  "git_commit": "9e45f20",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.28/radius-streamnet_2.6.28_amd64.deb",
+  "version": "2.6.29",
+  "git_commit": "5a48f9d",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.29/radius-streamnet_2.6.29_amd64.deb",
   "release_date": "2026-11-27",
-  "changelog": "release 2.6.28: charge panel - renew keeps the package, orange «تغيير باقة العميل» button"
+  "changelog": "release 2.6.29: Cisco switches connection map with live traffic on each cable"
 }
