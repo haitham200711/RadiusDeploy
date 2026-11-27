@@ -1,7 +1,7 @@
 {
-  "version": "2.6.22",
-  "git_commit": "a17003d",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.22/radius-streamnet_2.6.22_amd64.deb",
+  "version": "2.6.23",
+  "git_commit": "3ff9318",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.23/radius-streamnet_2.6.23_amd64.deb",
   "release_date": "2026-11-27",
-  "changelog": "release 2.6.22: POS app for distributors - cards and package renewal, Bluetooth printer"
+  "changelog": "release 2.6.23: a distributor can have the card POS and the charge panel together (POS app with one login)"
 }
