@@ -1,7 +1,7 @@
 {
-  "version": "2.6.38",
-  "git_commit": "b51f509",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.38/radius-streamnet_2.6.38_amd64.deb",
-  "release_date": "2026-11-27",
-  "changelog": "release 2.6.38: POS app 1.5 runs on Android 7 (Sunmi / Geidea terminals)"
+  "version": "2.6.39",
+  "git_commit": "3771097",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.39/radius-streamnet_2.6.39_amd64.deb",
+  "release_date": "2026-11-28",
+  "changelog": "release 2.6.39: copy a card template; page numbers on multi-page card PDFs"
 }
