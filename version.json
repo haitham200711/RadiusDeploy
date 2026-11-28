@@ -1,7 +1,7 @@
 {
-  "version": "2.6.39",
-  "git_commit": "3771097",
-  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.39/radius-streamnet_2.6.39_amd64.deb",
+  "version": "2.6.40",
+  "git_commit": "15174be",
+  "package_url": "https://github.com/haitham200711/RadiusDeploy/releases/download/v2.6.40/radius-streamnet_2.6.40_amd64.deb",
   "release_date": "2026-11-28",
-  "changelog": "release 2.6.39: copy a card template; page numbers on multi-page card PDFs"
+  "changelog": "release 2.6.40: unlimited usage column on the managers page"
 }
